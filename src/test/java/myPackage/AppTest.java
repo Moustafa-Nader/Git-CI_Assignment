@@ -32,7 +32,7 @@ public class AppTest
     public void TestCircleVolum()
     {
         double Circlevol = CircleVolum.getCircleVolum(5);
-        double ans  = (4.0/3.0)*(5*5*5)*3.1415;
+        double ans  =  (4.0/3.0)*3.1415*(5*5*5);
         assertEquals(Circlevol, ans,0);
     }
 
