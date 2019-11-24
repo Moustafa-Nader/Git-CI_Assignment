@@ -20,4 +20,11 @@ public class AppTest
         double ans  = 7*2*3.1415;
         assertEquals(Circlecircum, ans,0);
     }
+    @Test
+    public void TestFactorial()
+    {
+        double fact = Factorial.getFactorial(7);
+        double ans  = 7*6*5*4*3*2*1;
+        assertEquals(fact, ans,0);
+    }
 }
