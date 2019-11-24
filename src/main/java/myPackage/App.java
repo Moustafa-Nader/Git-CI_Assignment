@@ -22,6 +22,7 @@ public class App {
 
     private static ISubscriber subscribers[] = {
              new CircleCircumference(),
+             new CircleArea(),
             // New functions will be added here
     };
 }

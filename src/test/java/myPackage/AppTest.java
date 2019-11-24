@@ -20,4 +20,13 @@ public class AppTest
         double ans  = 7*2*3.1415;
         assertEquals(Circlecircum, ans,0);
     }
+    
+    
+    @Test
+    public void TestCircleArea()
+    {
+        double area = CircleCircumference.getCircleCircumference(4);
+        double ans  = 4*4*3.1415;
+        assertEquals(area, ans,0);
+    }
 }
