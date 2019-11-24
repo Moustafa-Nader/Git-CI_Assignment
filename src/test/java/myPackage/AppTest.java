@@ -27,4 +27,10 @@ public class AppTest
         double ans  = 7*6*5*4*3*2*1;
         assertEquals(fact, ans,0);
     }
+    public void testfibonacci ()
+    {
+        double fibb = fibonacci .getfibonacci (7);
+        double ans  = 13.0;
+        assertEquals(fibb, ans,0);
+    }
 }

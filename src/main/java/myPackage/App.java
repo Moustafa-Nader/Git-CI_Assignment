@@ -23,6 +23,11 @@ public class App {
     private static ISubscriber subscribers[] = {
              new CircleCircumference(),
 	     new Factorial(),
+	     
+	     
+	     
+	     
+	     new fibonacci (),
             // New functions will be added here
     };
 }
