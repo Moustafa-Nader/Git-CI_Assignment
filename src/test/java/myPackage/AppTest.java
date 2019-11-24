@@ -27,4 +27,18 @@ public class AppTest
         double ans  = 7*6*5*4*3*2*1;
         assertEquals(fact, ans,0);
     }
+	
+    @Test
+    public void TestCircleVolum()
+    {
+        double Circlevol = CircleVolum.getCircleVolum(5);
+        double ans  = (4.0/3.0)*(5*5*5)*3.1415;
+        assertEquals(Circlevol, ans,0);
+    }
+
+
+
+
+
+
 }
