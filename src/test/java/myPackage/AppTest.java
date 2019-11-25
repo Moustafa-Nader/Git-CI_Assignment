@@ -74,6 +74,14 @@ public class AppTest
         double ans  =  (4.0/3.0)*3.1415*(5*5*5);
         assertEquals(Circlevol, ans,0);
     }
+    
+    @Test
+    public void TestCircleArea()
+    {
+        double Area = CircleArea.get_CircleArea(4);
+        double ans  = 4*4*3.1415;
+        assertEquals(Area, ans,0);
+    }
 
 
 
