@@ -22,14 +22,14 @@ public class App {
 
     private static ISubscriber subscribers[] = {
              new CircleCircumference(),
-
              new CircleArea(),
-
 	           new Factorial(),
-
 	           new Sum(),
-
-	          new CircleVolum(),
+	           new CircleVolum(),
+	           new Factorial(),
+	           new fibonacci (),
+	           new Sum(),
+	           new CircleVolum(),
 
 
 
