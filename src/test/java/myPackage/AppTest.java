@@ -1,8 +1,6 @@
 package myPackage;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 
 /**
@@ -43,4 +41,41 @@ public class AppTest
         
 
     }
+    @Test
+    public void TestFactorial()
+    {
+        double fact = Factorial.getFactorial(7);
+        double ans  = 7*6*5*4*3*2*1;
+        assertEquals(fact, ans,0);
+    }
+
+
+    @Test
+    public void testfibonacci ()
+    {
+        double fibb = fibonacci .getfibonacci (7);
+        double ans  = 13.0;
+        assertEquals(fibb, ans,0);
+    }
+    @Test
+    public void TestSum()
+    {
+        double sum = Sum.getSum(7);
+        double ans  = 0+1+2+3+4+5+6+7;
+        assertEquals(sum, ans,0);
+
+    }
+
+	
+    @Test
+    public void TestCircleVolum()
+    {
+        double Circlevol = CircleVolum.getCircleVolum(5);
+        double ans  =  (4.0/3.0)*3.1415*(5*5*5);
+        assertEquals(Circlevol, ans,0);
+    }
+
+
+
+
 }
