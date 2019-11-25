@@ -26,6 +26,7 @@ public class App {
 	     new fibonacci (),
 	     new Sum(),
 	     new CircleVolum(),
+	     new CircleArea(),
 
 
             // New functions will be added here
