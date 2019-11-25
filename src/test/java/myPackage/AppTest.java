@@ -33,7 +33,7 @@ public class AppTest
         double fibb = fibonacci .getfibonacci (7);
         double ans  = 13.0;
         assertEquals(fibb, ans,0);
-
+    }
     @Test
     public void TestSum()
     {
