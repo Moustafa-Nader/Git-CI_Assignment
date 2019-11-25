@@ -28,6 +28,7 @@ public class App {
 	     new CircleVolum(),
 	     new CircleArea(),
              new SphereArea(),
+	     new LucasSeries(),
 
 
             // New functions will be added here
