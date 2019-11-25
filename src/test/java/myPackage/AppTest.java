@@ -11,20 +11,17 @@ public class AppTest
     /**
      * Rigorous Test :-)
      */
-    @Test
-    public void TestCircleCircumference()
-    {
-        double Circlecircum = CircleCircumference.getCircleCircumference(7);
-        double ans  = 7*2*3.1415;
-        assertEquals(Circlecircum, ans,0);
-    }
-
-    
+        
     @Test
     public void TestMain(){
         ISubscriber subscribers[] = {
             new CircleCircumference(),
-           // New functions will be added here
+            new Factorial(),
+            new fibonacci (),
+            new Sum(),
+            new CircleVolum(),
+            new CircleArea(),
+              // New functions will be added here
          };   
         Subject mySubject = new Subject();
         for (ISubscriber sub : subscribers) {
@@ -41,6 +38,14 @@ public class AppTest
         
 
     }
+    @Test
+    public void TestCircleCircumference()
+    {
+        double Circlecircum = CircleCircumference.getCircleCircumference(7);
+        double ans  = 7*2*3.1415;
+        assertEquals(Circlecircum, ans,0);
+    }
+
     @Test
     public void TestFactorial()
     {
