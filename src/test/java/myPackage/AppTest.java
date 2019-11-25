@@ -1,8 +1,6 @@
 package myPackage;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 
 /**
@@ -28,11 +26,21 @@ public class AppTest
         assertEquals(fact, ans,0);
     }
 
+
+    @Test
     public void testfibonacci ()
     {
         double fibb = fibonacci .getfibonacci (7);
         double ans  = 13.0;
         assertEquals(fibb, ans,0);
+
+    @Test
+    public void TestSum()
+    {
+        double sum = Sum.getSum(7);
+        double ans  = 0+1+2+3+4+5+6+7;
+        assertEquals(sum, ans,0);
+
     }
 
 	
