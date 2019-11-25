@@ -23,6 +23,7 @@ public class App {
     private static ISubscriber subscribers[] = {
              new CircleCircumference(),
 	     new Factorial(),
+	     new Sum(),
             // New functions will be added here
     };
 }
