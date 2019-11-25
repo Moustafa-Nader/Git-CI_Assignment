@@ -27,6 +27,7 @@ public class App {
 	     new Sum(),
 	     new CircleVolum(),
 	     new CircleArea(),
+             new SphereArea(),
 
 
             // New functions will be added here

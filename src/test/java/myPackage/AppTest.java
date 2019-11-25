@@ -21,6 +21,7 @@ public class AppTest
             new Sum(),
             new CircleVolum(),
             new CircleArea(),
+            new SphereArea(),
               // New functions will be added here
          };   
         Subject mySubject = new Subject();
@@ -88,6 +89,13 @@ public class AppTest
         assertEquals(Area, ans,0);
     }
 
+ @Test
+    public void TestSphereArea()
+    {
+        double Area = SphereArea.getSphereArea(5);
+        double ans  = 4*3.1415*(5*5);
+        assertEquals(Area, ans,0);
+    }
 
 
 
