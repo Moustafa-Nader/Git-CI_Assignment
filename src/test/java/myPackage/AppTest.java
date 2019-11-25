@@ -22,6 +22,7 @@ public class AppTest
             new CircleVolum(),
             new CircleArea(),
             new SphereArea(),
+	    new LucasSeries(),
               // New functions will be added here
          };   
         Subject mySubject = new Subject();
@@ -97,6 +98,12 @@ public class AppTest
         assertEquals(Area, ans,0);
     }
 
-
+    @Test
+    public void TestLucasSeries()
+    {
+        double lucasnum = LucasSeries.getLucasSeries(5);
+        double ans  = 11.0;
+        assertEquals(lucasnum, ans,0);
+    }
 
 }
